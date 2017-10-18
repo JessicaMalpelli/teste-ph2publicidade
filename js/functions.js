@@ -1,0 +1,1 @@
+function envia(){var e=document.getElementById("nome").value,a=document.getElementById("email").value;""==e||""==a?alert("Por Favor, preencha todos os campos!"):(document.getElementById("formulario").submit(),alert("Dados enviados com sucesso!"))}$(".navbar-nav>li>a").on("click",function(){$(".navbar-collapse").collapse("hide")});
